@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Form Exercise</title>
+        <link
+                href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+                rel="stylesheet"
+                type="text/css"
+        />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+    <form>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" required maxlength="30" autofocus="on">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" required maxlength="30" autofocus="on">
+        <fieldset>
+            <legend>Check relevant options?</legend>
+            <div>
+                <input id="human" type="checkbox" name="checkbox" autofocus="on">
+                <label for="human">Human</label>
+            </div>
+            <div>
+                <input id="robot" type="checkbox" name="checkbox" autofocus="on">
+                <label for="robot">Robot</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Check relevant option?</legend>
+            <div>
+                <input id="human1" type="radio" name="checkbox" autofocus="on" checked>
+                <label for="human1">Human</label>
+            </div>
+            <div>
+                <input id="robot1" type="radio" name="checkbox" autofocus="on">
+                <label for="robot1">Robot</label>
+            </div>
+        </fieldset>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required maxlength="300" autofocus="on" rows="5"></textarea>
+        <div id="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    </body>
+</html>

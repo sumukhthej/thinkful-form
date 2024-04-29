@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+form > label,
+form > input,
+form > textarea,
+form > #buttons {
+    padding: 5px 0;
+}
